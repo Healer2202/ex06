@@ -16,5 +16,18 @@ namespace UnitTestProject1
             Assert.AreEqual(200000, acc.Balance());
         }
 
+        [TestMethod]
+        public void Testdposit()
+        {
+            BankAccount acc2 = new BankAccount(200000);
+
+            Assert.AreEqual(400000, acc2.deposit(200000));
+        }
+        [TestMethod]
+        public void TestdWithDraw()
+        {
+            BankAccount acc3 = new BankAccount(200000);
+            Assert.AreEqual(100000, acc3.withDraw(100000));
+        }
     }
 }
