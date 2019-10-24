@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A700E4FC-0087-4230-91BD-73A963A6BEF0}</ProjectGuid>
+    <ProjectGuid>{98F26D0B-353F-430B-99D0-D8B64962DEF3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Problem1</RootNamespace>
-    <AssemblyName>Problem1</AssemblyName>
+    <RootNamespace>Problem2</RootNamespace>
+    <AssemblyName>Problem2</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,8 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account.cs" />
-    <Compile Include="BankAccount.cs" />
+    <Compile Include="myStack.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

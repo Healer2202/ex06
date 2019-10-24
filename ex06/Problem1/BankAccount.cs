@@ -24,10 +24,7 @@ namespace Problem1
         public int balance()
         {
             return amount;
-        }
-        public static void Main(String[] args)
-        {
-        }
+        }       
     }
 }
 
