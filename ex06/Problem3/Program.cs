@@ -10,7 +10,7 @@ namespace Problem3
     {
         static void Main(string[] args)
         {
-            queue user = new queue(10);
+            MyQueue user = new MyQueue(10);
             user.Enqueue(1);
             user.Enqueue(2);
             user.Enqueue(3);
